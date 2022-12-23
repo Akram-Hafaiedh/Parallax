@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.slider{
+    position: relative;
+    height:100%;
+    transform:translate3d(0,0,0);
+    background-image: url("./img/kelly-sikkema-F_iR1smN1lY-unsplash.jpg");
+    /* min-height: 800px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    height: 400px;
+}
